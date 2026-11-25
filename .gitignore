@@ -1,0 +1,15 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Compilados (Maven / Gradle)
+target/
+build/
+.gradle/
+*.class
+
+# Sistema operativo
+Thumbs.db
+desktop.ini
+.DS_Store
