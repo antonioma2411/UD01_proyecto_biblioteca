@@ -21,10 +21,10 @@ fun main() {
         } else {
             opcion = numero
             when (opcion) {
-                1 -> mostrarPendiente("Registrar libro")
-                2 -> mostrarPendiente("Registrar usuario")
-                3 -> mostrarPendiente("Listar libros")
-                4 -> mostrarPendiente("Listar usuarios")
+                1 -> registrarLibro(libros)
+                2 -> registrarUsuario(usuarios)
+                3 -> listarLibros(libros)
+                4 -> listarUsuarios(usuarios)
                 5 -> mostrarPendiente("Realizar préstamo")
                 6 -> mostrarPendiente("Devolver libro")
                 7 -> mostrarPendiente("Consultar préstamos activos")

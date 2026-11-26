@@ -12,10 +12,12 @@ Sistema de préstamos de biblioteca en Kotlin (aplicación de consola). PMDM · 
 
 ```
 src/main/kotlin/
-├── Main.kt       Menú principal y listas mutables
-├── Libro.kt      data class Libro
-├── Usuario.kt    data class Usuario
-└── Prestamo.kt   data class Prestamo
+├── Main.kt            Menú principal y listas mutables
+├── GestionLibros.kt   registrarLibro, listarLibros (Fases 4 y 6)
+├── GestionUsuarios.kt registrarUsuario, listarUsuarios (Fases 5 y 6)
+├── Libro.kt           data class Libro
+├── Usuario.kt         data class Usuario
+└── Prestamo.kt        data class Prestamo
 ```
 
 ## Estado
@@ -23,4 +25,7 @@ src/main/kotlin/
 - [x] Fase 1. Creación del proyecto
 - [x] Fase 2. Estructuras de datos (`data class` y `MutableList`)
 - [x] Fase 3. Menú principal
-- [ ] Fases 4 a 11
+- [x] Fase 4. Registro de libros
+- [x] Fase 5. Registro de usuarios
+- [x] Fase 6. Listado de libros y usuarios
+- [ ] Fases 7 a 11
