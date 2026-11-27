@@ -15,6 +15,7 @@ src/main/kotlin/
 ├── Main.kt            Menú principal y listas mutables
 ├── GestionLibros.kt   registrarLibro, listarLibros (Fases 4 y 6)
 ├── GestionUsuarios.kt registrarUsuario, listarUsuarios (Fases 5 y 6)
+├── GestionPrestamos.kt realizarPrestamo, devolverLibro (Fases 7 y 8)
 ├── Libro.kt           data class Libro
 ├── Usuario.kt         data class Usuario
 └── Prestamo.kt        data class Prestamo
@@ -28,4 +29,6 @@ src/main/kotlin/
 - [x] Fase 4. Registro de libros
 - [x] Fase 5. Registro de usuarios
 - [x] Fase 6. Listado de libros y usuarios
-- [ ] Fases 7 a 11
+- [x] Fase 7. Realización de préstamos
+- [x] Fase 8. Devolución de libros
+- [ ] Fases 9 a 11
